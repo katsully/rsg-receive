@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720219952D00008149E2 /* AVFoundation.framework */; };
+		006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720319952D00008149E2 /* CoreMedia.framework */; };
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995581B128DF400A5C623 /* IOKit.framework */; };
+		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		0D773135285847AA8A652AF7 /* Syphon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6C2A2F30F7094925A525F498 /* Syphon.framework */; };
+		F0DAE483ADC84B9D887FA987 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2A2F30F7094925A525F498 /* Syphon.framework */; };
+		25E62EA5A5F24A7BBAECACED /* SyphonNameboundClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 080F99A88DFF4A9A962E939E /* SyphonNameboundClient.m */; };
+		95F5179273694F708E952946 /* SyphonNameboundClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F9AC38C5E8458DA54B835E /* SyphonNameboundClient.h */; };
+		89009DF7E26243A89DCFE256 /* ServerDirectory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 806BCE6C09F74128B6182461 /* ServerDirectory.mm */; };
+		D2CFEBE67C3042D89A81EAC5 /* Server.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9E64A12CA0094B28A504F864 /* Server.mm */; };
+		82600416B3E4454B993999F4 /* Client.mm in Sources */ = {isa = PBXBuildFile; fileRef = A88692D7FABA40BA97D66B5B /* Client.mm */; };
+		04E1B257BE514A70B9318DFE /* Syphon.h in Headers */ = {isa = PBXBuildFile; fileRef = CADFDFBD4FF14CFCB4EB31FB /* Syphon.h */; };
+		44EC247595644437B920E375 /* ServerDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C57424A7AEB47D6A7F890F5 /* ServerDirectory.h */; };
+		C9466DD518DC4BA58F5AA5CB /* Server.h in Headers */ = {isa = PBXBuildFile; fileRef = 9691D585E44242FCBB916209 /* Server.h */; };
+		D456E89BBEF0459BBFA565E2 /* Client.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E0BCF923B14104AFEC2490 /* Client.h */; };
+		CDDC6C6DBD1F4133A7EF8942 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E6BD3CD4064BA8896DE512 /* QuickTime.framework */; };
+		E326306AAB5341D7938E5414 /* Osc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8185058032D54F429E3E493C /* Osc.h */; };
+		35C278062AEA4A6EAE7B57C6 /* Osc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D96DEEE9FC0A4106BEB428BA /* Osc.cpp */; };
+		C4CBBDF3C5A6436AADF31630 /* RSGReceive_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 982326B686D948A6AB38ED6F /* RSGReceive_Prefix.pch */; };
+		555641BCAC1D4BD18AADF4C7 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00B4E38F344C4B23A0B4EECB /* CinderApp.icns */; };
+		25F2EA6708014D348D02C032 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAB2B3B7FF04D3698934F28 /* Resources.h */; };
+		B20156F79F37482D89ACE9A1 /* RSGReceiveApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83C3F209CD7D4461BFB7CBF3 /* RSGReceiveApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006D720219952D00008149E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		006D720319952D00008149E2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00B995581B128DF400A5C623 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		00B995591B128DF400A5C623 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* RSGReceive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSGReceive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C3F209CD7D4461BFB7CBF3 /* RSGReceiveApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/RSGReceiveApp.cpp; sourceTree = "<group>"; name = RSGReceiveApp.cpp; };
+		8AAB2B3B7FF04D3698934F28 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
+		00B4E38F344C4B23A0B4EECB /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
+		75152C545AA946BC897B58C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
+		982326B686D948A6AB38ED6F /* RSGReceive_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = RSGReceive_Prefix.pch; sourceTree = "<group>"; name = RSGReceive_Prefix.pch; };
+		D96DEEE9FC0A4106BEB428BA /* Osc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../../OSC/src/cinder/osc/Osc.cpp; sourceTree = "<group>"; name = Osc.cpp; };
+		8185058032D54F429E3E493C /* Osc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../OSC/src/cinder/osc/Osc.h; sourceTree = "<group>"; name = Osc.h; };
+		49E6BD3CD4064BA8896DE512 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; name = QuickTime.framework; };
+		B2E0BCF923B14104AFEC2490 /* Client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../Syphon/src/Client.h; sourceTree = "<group>"; name = Client.h; };
+		9691D585E44242FCBB916209 /* Server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../Syphon/src/Server.h; sourceTree = "<group>"; name = Server.h; };
+		9C57424A7AEB47D6A7F890F5 /* ServerDirectory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../Syphon/src/ServerDirectory.h; sourceTree = "<group>"; name = ServerDirectory.h; };
+		CADFDFBD4FF14CFCB4EB31FB /* Syphon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../Syphon/src/Syphon.h; sourceTree = "<group>"; name = Syphon.h; };
+		A88692D7FABA40BA97D66B5B /* Client.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../../Syphon/src/Client.mm; sourceTree = "<group>"; name = Client.mm; };
+		9E64A12CA0094B28A504F864 /* Server.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../../Syphon/src/Server.mm; sourceTree = "<group>"; name = Server.mm; };
+		806BCE6C09F74128B6182461 /* ServerDirectory.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ../../Syphon/src/ServerDirectory.mm; sourceTree = "<group>"; name = ServerDirectory.mm; };
+		85F9AC38C5E8458DA54B835E /* SyphonNameboundClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../../Syphon/lib/SyphonNameboundClient.h; sourceTree = "<group>"; name = SyphonNameboundClient.h; };
+		080F99A88DFF4A9A962E939E /* SyphonNameboundClient.m */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = ../../Syphon/lib/SyphonNameboundClient.m; sourceTree = "<group>"; name = SyphonNameboundClient.m; };
+		6C2A2F30F7094925A525F498 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ../../Syphon/lib/Syphon.framework; sourceTree = "<group>"; name = Syphon.framework; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */,
+				006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */,
+				00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */,
+				CDDC6C6DBD1F4133A7EF8942 /* QuickTime.framework in Frameworks */,
+				F0DAE483ADC84B9D887FA987 /* Syphon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				83C3F209CD7D4461BFB7CBF3 /* RSGReceiveApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				006D720219952D00008149E2 /* AVFoundation.framework */,
+				006D720319952D00008149E2 /* CoreMedia.framework */,
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				00B995581B128DF400A5C623 /* IOKit.framework */,
+				00B995591B128DF400A5C623 /* IOSurface.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* RSGReceive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* RSGReceive */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = RSGReceive;
+			sourceTree = "<group>";
+		};
+		33CBDBE80B0349399E2EFDE9 /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				D96DEEE9FC0A4106BEB428BA /* Osc.cpp */,
+				8185058032D54F429E3E493C /* Osc.h */,
+			);
+			name = osc;
+			sourceTree = "<group>";
+		};
+		9576A0512A9143FAA0DC74EE /* cinder */ = {
+			isa = PBXGroup;
+			children = (
+				33CBDBE80B0349399E2EFDE9 /* osc */,
+			);
+			name = cinder;
+			sourceTree = "<group>";
+		};
+		BCF6FF838DC44676BEDFDDE2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9576A0512A9143FAA0DC74EE /* cinder */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		317787ADD5CF47BA90F11A42 /* OSC */ = {
+			isa = PBXGroup;
+			children = (
+				BCF6FF838DC44676BEDFDDE2 /* src */,
+			);
+			name = OSC;
+			sourceTree = "<group>";
+		};
+		F005FA077279428DB9F75A1E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B2E0BCF923B14104AFEC2490 /* Client.h */,
+				9691D585E44242FCBB916209 /* Server.h */,
+				9C57424A7AEB47D6A7F890F5 /* ServerDirectory.h */,
+				CADFDFBD4FF14CFCB4EB31FB /* Syphon.h */,
+				A88692D7FABA40BA97D66B5B /* Client.mm */,
+				9E64A12CA0094B28A504F864 /* Server.mm */,
+				806BCE6C09F74128B6182461 /* ServerDirectory.mm */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		6FEC2092B34D41D78BD475F0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				85F9AC38C5E8458DA54B835E /* SyphonNameboundClient.h */,
+				080F99A88DFF4A9A962E939E /* SyphonNameboundClient.m */,
+				6C2A2F30F7094925A525F498 /* Syphon.framework */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		EEDD6DEC7EB74E008B1809A4 /* Syphon */ = {
+			isa = PBXGroup;
+			children = (
+				F005FA077279428DB9F75A1E /* src */,
+				6FEC2092B34D41D78BD475F0 /* lib */,
+			);
+			name = Syphon;
+			sourceTree = "<group>";
+		};
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				317787ADD5CF47BA90F11A42 /* OSC */,
+				EEDD6DEC7EB74E008B1809A4 /* Syphon */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8AAB2B3B7FF04D3698934F28 /* Resources.h */,
+				982326B686D948A6AB38ED6F /* RSGReceive_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00B4E38F344C4B23A0B4EECB /* CinderApp.icns */,
+				75152C545AA946BC897B58C5 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				49E6BD3CD4064BA8896DE512 /* QuickTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* RSGReceive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "RSGReceive" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				51FADCA9BC5D49F0BF5B2C65 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSGReceive;
+			productInstallPath = "$(HOME)/Applications";
+			productName = RSGReceive;
+			productReference = 8D1107320486CEB800E47090 /* RSGReceive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RSGReceive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* RSGReceive */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* RSGReceive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555641BCAC1D4BD18AADF4C7 /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20156F79F37482D89ACE9A1 /* RSGReceiveApp.cpp in Sources */,
+				35C278062AEA4A6EAE7B57C6 /* Osc.cpp in Sources */,
+				82600416B3E4454B993999F4 /* Client.mm in Sources */,
+				D2CFEBE67C3042D89A81EAC5 /* Server.mm in Sources */,
+				89009DF7E26243A89DCFE256 /* ServerDirectory.mm in Sources */,
+				25E62EA5A5F24A7BBAECACED /* SyphonNameboundClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RSGReceive_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/macosx/$(CONFIGURATION)/libcinder.a\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = RSGReceive;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Syphon/lib,
+				);
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RSGReceive_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/macosx/$(CONFIGURATION)/libcinder.a\"";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = RSGReceive;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+				FRAMEWORK_SEARCH_PATHS = (
+					../../Syphon/lib,
+				);
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = "../../..";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				ENABLE_TESTABILITY = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../../OSC/src,
+					../../QuickTime/include,
+				);
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = "../../..";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\" ../include",
+					../../OSC/src,
+					../../QuickTime/include,
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "RSGReceive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RSGReceive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+		51FADCA9BC5D49F0BF5B2C65 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0D773135285847AA8A652AF7 /* Syphon.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
